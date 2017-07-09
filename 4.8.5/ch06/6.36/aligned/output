@@ -1,0 +1,6 @@
+glocal variable on a 16-byte boundary &x:0x601050
+ptr:0x601050
+foo:0x601060
+ Specifies the alignment of structure field foo.x0:0x601060
+foo.x1:0x601064
+__BIGGEST_ALIGNMENT__: 16

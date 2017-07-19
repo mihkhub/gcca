@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-O0 -Wall -g -std=gnu99
+CFLAGS=-O3 -Wall -g -std=gnu99 -msse4.2
 LDLIBS=
 BIN=$(shell basename `pwd`)
 all: $(BIN)

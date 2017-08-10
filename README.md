@@ -1,2 +1,1 @@
-# gcca
-Using the GNU Compiler Collection in Action, or gcca
+# GNU toolchain in action or gtoolchain

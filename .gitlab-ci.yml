@@ -1,0 +1,15 @@
+stages:
+  - build
+  - test
+
+build_foo:
+  stage: build
+  script:
+    - gcc -v
+    - g++ -v
+
+test_foo:
+  stage: test
+  script:
+    - bash --version
+    - python --version
